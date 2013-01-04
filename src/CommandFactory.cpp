@@ -27,6 +27,7 @@
 #include "ResizeWindow.h"
 #include "IgnoreSslErrors.h"
 #include "SetSkipImageLoading.h"
+#include "SetJavaEnabled.h"
 #include "WindowFocus.h"
 #include "GetWindowHandles.h"
 #include "GetWindowHandle.h"

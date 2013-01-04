@@ -22,6 +22,7 @@ class WebPage : public QWebPage {
     bool render(const QString &fileName);
     virtual bool extension (Extension extension, const ExtensionOption *option=0, ExtensionReturn *output=0);
     void setSkipImageLoading(bool skip);
+    void setJavaEnabled(bool enabled);
     QString consoleMessages();
     QString alertMessages();
     QString confirmMessages();

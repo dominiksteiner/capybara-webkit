@@ -252,6 +252,10 @@ void WebPage::setSkipImageLoading(bool skip) {
   settings()->setAttribute(QWebSettings::AutoLoadImages, !skip);
 }
 
+void WebPage::setJavaEnabled(bool enabled) {
+  settings()->setAttribute(QWebSettings::JavaEnabled, enabled);
+}
+
 int WebPage::getLastStatus() {
   return qobject_cast<NetworkAccessManager *>(networkAccessManager())->statusFor(currentFrame()->url());
 }

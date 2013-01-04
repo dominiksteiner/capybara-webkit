@@ -64,6 +64,10 @@ module Capybara::Webkit
       browser.console_messages
     end
 
+    def set_java_enabled(enabled)
+      browser.set_java_enabled(enabled)
+    end
+
     def error_messages
       browser.error_messages
     end

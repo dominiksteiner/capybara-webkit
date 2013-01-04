@@ -101,6 +101,10 @@ module Capybara::Webkit
       command("SetSkipImageLoading", skip_image_loading)
     end
 
+    def set_java_enabled(enabled)
+      command("SetJavaEnabled", enabled)
+    end
+
     def window_focus(selector)
       command("WindowFocus", selector)
     end

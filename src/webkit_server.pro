@@ -49,6 +49,7 @@ HEADERS = \
   NullCommand.h \
   PageLoadingCommand.h \
   SetSkipImageLoading.h \
+  SetJavaEnabled.h \
   WebPageManager.h \
   WindowFocus.h \
   GetWindowHandles.h \
@@ -108,6 +109,7 @@ SOURCES = \
   SetTimeout.cpp \
   GetTimeout.cpp \
   SetSkipImageLoading.cpp \
+  SetJavaEnabled.cpp \
   WebPageManager.cpp \
   WindowFocus.cpp \
   GetWindowHandles.cpp \
